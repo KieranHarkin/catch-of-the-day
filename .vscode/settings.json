@@ -1,8 +1,8 @@
 {
-    "git.ignoreLimitWarning": true,
-    "editor.fontFamily": "Fira Code",
-    "editor.fontLigatures": true,
-     // Upper size limit, in KB, that will count a package as a small package
+  "git.ignoreLimitWarning": true,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  // Upper size limit, in KB, that will count a package as a small package
   "importCost.smallPackageSize": 50,
 
   // Upper size limit, in KB, that will count a package as a medium package
@@ -18,14 +18,10 @@
   "importCost.largePackageColor": "#d44e40",
 
   // File extensions to be parsed by the Typescript parser
-  "importCost.typescriptExtensions": [
-    "\\.tsx?$"
-  ],
+  "importCost.typescriptExtensions": ["\\.tsx?$"],
 
   // File extensions to be parsed by the Javascript parser
-  "importCost.javascriptExtensions": [
-    "\\.jsx?$"
-  ],
+  "importCost.javascriptExtensions": ["\\.jsx?$"],
 
   // Which bundle size to display
   "importCost.bundleSizeDecoration": "both",
@@ -34,5 +30,9 @@
   "importCost.showCalculatingDecoration": true,
 
   // Print debug messages in output channel
-  "importCost.debug": false
+  "importCost.debug": false,
+
+  "editor.formatOnSave": true,
+
+  "prettier.singleQuote": true
 }
